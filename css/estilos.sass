@@ -1,0 +1,143 @@
+*
+  margin: 0
+  padding: 0
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  font-size: 16px
+  font-family: sans-serif
+
+header
+  width: 100%
+a
+  text-decoration: none
+  color: black
+.nav
+  width: 100%
+  display: flex
+  background: #F1F1F1
+  flex-flow: row no-wrap
+  padding: 20px
+  .nav-item
+    &.logo
+      display: flex
+      //background: green
+      a
+        display: flex
+        flex-flow: row no-wrap
+        width: 224px
+        img
+          width: 40px
+          margin-right: 7px
+        p
+          font-size: 24px
+          align-self: center
+          color: #757575
+    &.search
+      display: flex
+      width: 70%
+      min-width: 200px
+      max-width: 590px
+      flex-flow: row no-wrap
+      align-items: center
+      //background: blue
+      input
+        height: 30px
+        width: 100%
+        border: 1px solid #A8A8A8
+        padding-left: 10px
+      button
+        cursor: pointer
+        background: #4486F6
+        color: white
+        border: none
+        width: 60px
+        padding: 4px
+        border-top-right-radius: 2px
+        border-bottom-right-radius: 2px
+.main
+  width: 100%
+  display: flex
+  flex-flow: row nowrap
+  aside
+    width: 220px
+    background: #F4F4F4
+    z-index: 100
+    ul
+      display: flex
+      flex-flow: column wrap
+      li
+        display: flex
+        flex-direction: row
+        height: 50px
+        a
+          display: flex
+          width: 100%
+          flex-flow: row wrap
+          align-items: center
+          color: #444444
+          font-size: 20px
+          font-weight: lighter
+          span
+            display: flex
+            height: 100%
+            font-size: 24px
+            color: white
+            flex-flow: row wrap
+            justify-content: flex-end
+            padding-right: 15px
+            align-items: center
+            width: 30%
+            margin-right: 10px
+          &.entretenimiento
+            color: white
+            background: #444444
+          &.aplicaciones
+            span
+              background: #689F38
+            &:hover
+              background: #689F38
+              color: white
+          &.peliculas
+            span
+              background: #ED3B3B
+            &:hover
+              background: #ED3B3B
+              color: white
+          &.musica
+            span
+              background: #EF6C00
+            &:hover
+              background: #EF6C00
+              color: white
+          &.libros
+            span
+              background: #039BE5
+            &:hover
+              background: #039BE5
+              color: white
+          &.kiosco
+            span
+              background: #536DFE
+            &:hover
+              background: #536DFE
+              color: white
+          &.dispositivos
+            span
+              background: #658092
+            &:hover
+              background: #658092
+              color: white
+
+  .main-articles
+    background: #EEEEEE
+    width: -moz-calc(100% - 220px)
+    height: 140vh
+    .container
+      width: 100%
+      height: 50px
+      background: #FFFFFF
+    .triangle
+      border-bottom: 100px solid blue
+      border-left: 50px solid blue
+      border-right: 50px solid blue

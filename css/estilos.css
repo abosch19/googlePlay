@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif; }
+
+header {
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.nav {
+  width: 100%;
+  display: flex;
+  background: #F1F1F1;
+  flex-flow: row no-wrap;
+  padding: 20px; }
+  .nav .nav-item.logo {
+    display: flex; }
+    .nav .nav-item.logo a {
+      display: flex;
+      flex-flow: row no-wrap;
+      width: 224px; }
+      .nav .nav-item.logo a img {
+        width: 40px;
+        margin-right: 7px; }
+      .nav .nav-item.logo a p {
+        font-size: 24px;
+        align-self: center;
+        color: #757575; }
+  .nav .nav-item.search {
+    display: flex;
+    width: 70%;
+    min-width: 200px;
+    max-width: 590px;
+    flex-flow: row no-wrap;
+    align-items: center; }
+    .nav .nav-item.search input {
+      height: 30px;
+      width: 100%;
+      border: 1px solid #A8A8A8;
+      padding-left: 10px; }
+    .nav .nav-item.search button {
+      cursor: pointer;
+      background: #4486F6;
+      color: white;
+      border: none;
+      width: 60px;
+      padding: 4px;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px; }
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap; }
+  .main aside {
+    width: 220px;
+    background: #F4F4F4;
+    z-index: 100; }
+    .main aside ul {
+      display: flex;
+      flex-flow: column wrap; }
+      .main aside ul li {
+        display: flex;
+        flex-direction: row;
+        height: 50px; }
+        .main aside ul li a {
+          display: flex;
+          width: 100%;
+          flex-flow: row wrap;
+          align-items: center;
+          color: #444444;
+          font-size: 20px;
+          font-weight: lighter; }
+          .main aside ul li a span {
+            display: flex;
+            height: 100%;
+            font-size: 24px;
+            color: white;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            padding-right: 15px;
+            align-items: center;
+            width: 30%;
+            margin-right: 10px; }
+          .main aside ul li a.entretenimiento {
+            color: white;
+            background: #444444; }
+          .main aside ul li a.aplicaciones span {
+            background: #689F38; }
+          .main aside ul li a.aplicaciones:hover {
+            background: #689F38;
+            color: white; }
+          .main aside ul li a.peliculas span {
+            background: #ED3B3B; }
+          .main aside ul li a.peliculas:hover {
+            background: #ED3B3B;
+            color: white; }
+          .main aside ul li a.musica span {
+            background: #EF6C00; }
+          .main aside ul li a.musica:hover {
+            background: #EF6C00;
+            color: white; }
+          .main aside ul li a.libros span {
+            background: #039BE5; }
+          .main aside ul li a.libros:hover {
+            background: #039BE5;
+            color: white; }
+          .main aside ul li a.kiosco span {
+            background: #536DFE; }
+          .main aside ul li a.kiosco:hover {
+            background: #536DFE;
+            color: white; }
+          .main aside ul li a.dispositivos span {
+            background: #658092; }
+          .main aside ul li a.dispositivos:hover {
+            background: #658092;
+            color: white; }
+  .main .main-articles {
+    background: #EEEEEE;
+    width: -moz-calc(100% - 220px);
+    height: 140vh; }
+  .main .container {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF; }
+
+/*# sourceMappingURL=estilos.css.map */
